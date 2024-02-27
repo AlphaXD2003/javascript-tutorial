@@ -4,3 +4,7 @@ console.log(parseFloat("1.2582"))
 console.log(parseFloat(1))
 console.log(typeof parseInt("jhguyg"))
 console.log( parseInt("jhguyg"))
+
+
+// hatke typer
+
