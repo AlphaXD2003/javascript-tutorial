@@ -27,4 +27,5 @@ console.log(typeof obj['mySymbol1'])
 
 console.log(obj[mySymbol2])
 console.log(typeof obj[mySymbol2])
+console.log(typeof Object.keys(obj)[4])
 
