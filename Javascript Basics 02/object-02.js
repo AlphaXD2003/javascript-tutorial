@@ -49,6 +49,8 @@ const name = {
     lastname : 'nandi'
 }
 
+
+// object destructuring
 /*let {firstname, lastname} = name
 console.log(lastname)
 lastname = 'nndi'
