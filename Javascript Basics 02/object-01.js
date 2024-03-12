@@ -31,5 +31,9 @@ console.log(typeof Object.keys(obj)[4])
 
 
 //using new key word
-const newobj = new Object()
-
+let newobj = new Object()
+newobj = {
+    name : 'wribhu',
+    surname : 'nandi'
+}
+console.log(newobj)
