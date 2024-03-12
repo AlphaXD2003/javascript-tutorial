@@ -103,3 +103,26 @@ function newArray(array){
 }
 newArray(array)
 console.log(array)
+
+
+
+function handle1(y){
+    y = y
+    console.log(y)
+    handle2()
+}
+function handle2(y){
+    y = 30
+    console.log(y)
+    handle3()
+    
+}
+function handle3(y){
+    y = 40
+    console.log(y)
+
+}
+console.log('````````````````````````````````````')
+y = 10;
+handle1(y)
+console.log(y)
