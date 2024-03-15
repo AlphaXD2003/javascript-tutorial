@@ -8,7 +8,7 @@ let x = addNumber(30,40)
 
 // Scope
 
-
+/*
 let a = 20;
 var b = 50;
 function print(a){
@@ -18,3 +18,5 @@ function print(a){
 }
 print(a)
 console.log(this)
+
+*/
