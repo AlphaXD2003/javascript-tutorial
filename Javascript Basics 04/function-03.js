@@ -55,3 +55,11 @@ console.log (sum3(5,6)[1])
 
 const print1 = num1 => console.log(num1)
 print1(1)
+
+
+
+function printName(name='wribhu'){
+    console.log(name)
+}
+printName('sonu') 
+printName() 
