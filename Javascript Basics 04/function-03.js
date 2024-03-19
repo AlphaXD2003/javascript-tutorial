@@ -61,5 +61,8 @@ print1(1)
 function printName(name='wribhu'){
     console.log(name)
 }
-printName('sonu') 
-printName() 
+//printName('sonu') 
+//printName() 
+
+
+
