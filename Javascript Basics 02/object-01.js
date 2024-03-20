@@ -37,3 +37,12 @@ newobj = {
     surname : 'nandi'
 }
 console.log(newobj)
+
+let newObj1 = {
+    firstname : 'wribhu',
+    lastname : 'nandi'
+}
+
+newObj1.firstname = 'wr'
+newObj1.middlename = 'wr'
+console.log(newObj1)
