@@ -73,3 +73,20 @@ console.log(wribhu1['surName'])
 */
 
 
+const user4 = function(name){
+    this.name = name
+   
+    // if the returnType is object then return the object else return this
+    return {name: 'Wribhu'}
+    // return
+}
+const objUser4 = new user4('nandi')
+console.log(objUser4.name)
+
+const user5 = function(){
+    this.name = 'wribhu'
+}
+// console.log(new user5.name) <= error
+console.log(new user5().name)
+const objUser5 = new user5
+console.log('Obj5: ' , objUser5.name)
